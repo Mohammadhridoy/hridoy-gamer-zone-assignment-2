@@ -1,0 +1,89 @@
+/* common scetion */
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* header section start*/
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 150px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo-section{
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+.nav-logo-section > img{
+    width: 5rem;
+    height: 2.4rem;
+}
+.nav-logo-section h2{
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-logo-color{
+    color: #FF42A5;
+}
+/* style nav right side */
+.nav-manus{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+.nav-manus h4 a{
+    text-decoration:none ;
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav-manus button{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    font-size: .9rem;
+    color: #3C354F;
+    font-weight: 500;
+    width: 195px;
+    padding: 7px 8px 11px 0px;
+    
+    border: 0px;
+}
+.nav-btn a img{
+    position: relative;
+    left: 9px;
+    top: 2px;
+    width: 20px;
+}
+.nav-tiktok{
+    margin-left: 8px;
+}
+
+
+/* header section end  */
+
+
+
+
+/* responsive for mobile device(smallest device) */
+/* Responsive header section */
+@media screen and (max-width:576px) {
+
+    nav, .nav-manus {
+        flex-direction: column;
+    }
+    .nav-manus, .nav-logo-section{
+        margin-top: 2.2rem;
+    }
+    header{
+        box-shadow: none;
+    }
+
+ }
