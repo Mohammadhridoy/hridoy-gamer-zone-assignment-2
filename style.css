@@ -357,6 +357,75 @@ nav{
 
 /* game-store-section end */
 
+/* footer section start */
+footer{
+    background-color: #0B0223;
+    padding: 90px 150px 60px 150px;
+    text-align: center;
+}
+.footer-logo{
+  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.color-white{
+    color:#fff; 
+}
+.footer-manus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    
+}
+.footer-manus li{
+
+
+}
+.footer-manus li a{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+  
+}
+
+/* footer icon */
+.footer-icon{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-icon a{
+    font-size: 22px;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.footer-title a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+}
+footer h3{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+/* footer section end */
+
 
 
 
