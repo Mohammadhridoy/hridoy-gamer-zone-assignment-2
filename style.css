@@ -297,11 +297,65 @@ nav{
     width: 220px;
     border: 6px;
     position: absolute;
-    bottom: -15px;
+    bottom: -45px;
     left: -100px;
 }
 
 /* information section end */
+
+/* game-store-section start */
+.game-store-section{
+    background-color: rgb(237 216 227 / 30%);
+    padding: 90px 150px; 
+}
+.game-info{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px 18px;
+    border-radius: 30px;
+    transition: 0.5s ease-in all;
+  
+}
+.game-info img{
+    height: 30px;
+    width: 30px;
+}
+.game-info h3{
+    color: #0B0223;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 5px;
+    
+ 
+}
+.game-info:hover{
+
+   border:1px solid #FF42A5; 
+
+   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: -30px 30px 32px rgba(0,0,0,0.3);
+
+}
+.game-store-inner-1{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.game-store-2{
+    margin-left: 90px;
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* game-store-section end */
 
 
 
